@@ -55,23 +55,23 @@ function evenOdd(num) {
       }
     }
     
-    console.log(evenOdd(7));
-    console.log(evenOdd(8));
-    
+console.log(evenOdd(7));
+console.log(evenOdd(8));
+
 ///// work 7    
-    
-    function upperLower(upper) {
-      return upper.toLowerCase();
-    }
-    
-    console.log(upperLower("MY NAME IS JOHN"));
-    
-    
+
+function upperLower(upper) {
+return upper.toLowerCase();
+}
+
+console.log(upperLower("MY NAME IS JOHN"));
+
+
 //////work 8    
-    
-    function numberFilter(numbers) {
-      return numbers.filter(numbers => numbers % 2 === 0);
-    }
-    
-    const numbers = [13, 30, 225, 233, 245, 34, 23];
-    console.log(numberFilter(numbers))
+
+function numberFilter(numbers) {
+return numbers.filter(numbers => numbers % 2 === 0);
+}
+
+const numbers = [13, 30, 225, 233, 245, 34, 23];
+console.log(numberFilter(numbers))
