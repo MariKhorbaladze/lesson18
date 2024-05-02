@@ -53,7 +53,7 @@ function evenOdd(num) {
       } else {
         return true;
       }
-    }
+ }
     
 console.log(evenOdd(7));
 console.log(evenOdd(8));
